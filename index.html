@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <!-- navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 ">
+    <div class="container-fluid d-flex flex-row flex-wrap">
+      <a class="navbar-brand col" href="#">
+        <img class="navbar-brand-img" src="./assets/images/logo.svg" alt="" />
+      </a>
+
+      <div class="d-flex flex-row-reverse col">
+        <div id="menu-bar" onclick='document.getElementById("menu-bar").classList.toggle("change");'
+          class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+
+        </div>
+        <a href="#" class="btn btn-primary d-block d-lg-none col flex flex-wrap ">Get Started</a>
+      </div>
+
+
+    </div>
+
+
+    <div class="collapse navbar-collapse " id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Web3</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Learn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Individuals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Businesses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Developers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Company</a>
+        </li>
+      </ul>
+      <a class="nav-link d-none d-lg-block" href="#">Sign in</a>
+      <a class="btn btn-primary uncollapsed d-block d-lg-none">Get started</a>
+      <!-- <a class="btn btn-primary uncollapsed uc-singin d-block d-lg-none" href="#">Sign in</a> -->
+      <a href="#" class="btn btn-primary d-none d-lg-block">Get started</a>
+    </div>
+
+    </div>
+
+  </nav>
+
+  <!-- //navebar -->
+
+  <!--hero-->
+  <section id="hero-section mt-4  col-12">
+    <div class="container d-grid pb-4 mb-lg-5 ">
+      <div class="col-md-6   ">
+        <a class="link-primary mb-lg-4 fw-bold " style="font-size: 20px;" href="#">
+          <img src="assets/images/dollar.svg">
+
+          Jump start your portfolio
+          <img src="assets/images/arrowhero.svg">
+
+        </a>
+
+        <h1 style="font-size: 60px; font-weight:600; ">Jump Start <br>your crypto <br>
+          portfolio
+        </h1>
+        <h6 style="font-size: 20px;">Coinbase is the easiest place to buy and sell <br>cryptocurrency. Sign up and get
+          started today.
+        </h6>
+
+
+
+
+
+        <form class=" row g-3 mt-4">
+          <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden"></label>
+            <input type="email" class="form-control form-control-lg pb-4" id="inputPassword2" placeholder="Enter email">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary " style="height: 62px; width: 120%;"><span
+                style="font-size: 20px;"> Get
+                Started</span> </button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 d-none d-md-block " style="width: 225px; position: absolute; right: 21vw; ">
+        <img src="assets/images/hero.svg" style="left:510px;" height="410px">
+      </div>
+    </div>
+  </section>
+
+  <!--// hero -->
+
+
+  <!--services-->
+  <section id="services ">
+    <div class="container col-12">
+      <div class="row mb-4">
+        <div class="col-12  text-center mb-4">
+          <h2 class="pb-3 fs-1">The most trusted cryptocurrency
+            platform</h2>
+          <p class=" para">Here are a few reasons why you should choose Coinbase</p>
+        </div>
+
+      </div>
+      <div class="row gy-4">
+        <div class="col-md-6  ">
+          <div class="card  text-center " style="border: none;">
+            <img class="card-img-top mx-auto d-block " src="./assets/images/ser1.svg" style="width: unset; "
+              alt="Card image">
+            <div class=" card-body">
+              <h4 class="card-title">Secure storage</h4>
+              <p class="card-text pb-3">We store the vast majority of the digital<br>
+                assets in secure offline storage.</p>
+              <a href="#" class="link-primary" style="font-weight:bolder; ">Learn more ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6  ">
+          <div class="card text-center  " style=" border: none;">
+            <img class=" card-img-top mx-auto d-block " src="./assets/images/coinbaselogo.svg" style="width: unset; "
+              alt="Card image">
+            <div class=" card-body">
+              <h4 class="card-title">Industry best practices
+              </h4>
+              <p class="card-text  pb-3">Coinbase supports a variety of the most <br> popular digital currencies.</p>
+              <a href="#" class="link-primary " style="font-weight:bolder;">Learn more ></a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!---testimonals -->
+
+  <section id="testimonals-- col-12" style="margin: 0;">
+    <div class="c">
+      <div class="ic">
+        <div class="rupees">Rs. 44,00,000</div>
+        <div class="quaterly">Quaterly Volume traded</div>
+      </div>
+      <div class="ic">
+        <div class="supportcount">100+</div>
+        <div class="countriessupport">Countries Supported</div>
+      </div>
+      <div class="ic">
+        <div class="userscount">8.9+ Cr</div>
+        <div class="verifiedusers"> Verified Users</div>
+      </div>
+
+    </div>
+    <div class="c">
+      <div class="ic">
+        <div class="rupees">Rs. 64,00,000</div>
+        <div class="quaterly">Halfyearly Volume traded</div>
+      </div>
+      <div class="ic">
+        <div class="supportcount">3+ cr</div>
+        <div class="countriessupport">Customers benifitted</div>
+      </div>
+      <div class="ic">
+        <div class="userscount">19.9+ Cr</div>
+        <div class="verifiedusers"> Verified Users</div>
+      </div>
+
+    </div>
+    <div class="c">
+      <div class="ic">
+        <div class="rupees">5000+</div>
+        <div class="quaterly">Employees working</div>
+      </div>
+      <div class="ic">
+        <div class="supportcount">200++</div>
+        <div class="countriessupport">support centres</div>
+      </div>
+      <div class="ic">
+        <div class="userscount">78.9+ Cr</div>
+        <div class="verifiedusers"> Annual income</div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+  <!--end of testimonals-->
+
+
+
+
+
+  <!--footer-->
+
+
+
+  <footer class="bg-white col-12">
+    <div class="container footer-top">
+      <div class="row">
+        <div class="col-lg-5">
+          <img src="./assets/images/coinbaselogo.svg" style="width: 50%; height: 40px; margin-bottom:10px ;" alt="">
+
+          <p class="text-dark pt-4"> E =>abineshragavan27@gmail.com</p class="text-white">
+          <p class="text-dark">A =>Dubai Bus Stand ,Dubai road,Dubai </p class="text-white">
+        </div>
+        <div class="col-lg-2 ms-auto">
+          <h5 class="mb-3 mb-lg-5 text-dark">Services</h5>
+          <ul>
+
+            <li><a href="#" class="link text-dark">Buy and sell</a></li>
+            <li><a href="#" class="link text-dark">earn crypto.</a></li>
+            <li><a href="#" class="link text-dark">exchange cryptocurrency</a></li>
+            <li><a href="#" class="link text-dark">Bitcoin Transfer </a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2">
+          <h5 class="mb-3 mb-lg-5 text-dark">Company</h5>
+          <ul>
+
+            <li><a href="#" class="link text-dark ">Terms && Condition </a></li>
+            <li><a href="#" class="link text-dark">Licenses</a></li>
+            <li><a href="#" class="link text-dark ">FAQ'S</a></li>
+            <li><a href="#" class="link text-dark">Need Help? </a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2">
+          <h5 class="mb-3 mb-lg-5 text-dark">Follow US</h5>
+          <ul>
+
+            <li><a href="#" class="link text-dark">Youtube</a></li>
+            <li><a href="#" class="link text-dark">Instagram</a></li>
+            <li><a href=" #" class="link text-dark ">Twiter</a></li>
+            <li><a href="#" class="link text-dark">Github </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom ">
+      <div class="row gy-4 justify-content-between  ">
+        <div class="col-auto ">
+          <p class="mb-0 text-dark">© 2023 Coinbase</p>
+
+        </div>
+        <div class="col-auto ">
+          <p class="mb-0 text-dark">Designed By <a style="font-size:30px;"
+              href="https://www.linkedin.com/in/abinesh-ragavan-b0a2ab22a/" class="text-dark" target="_blank">ABI</a>
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!--//footer-->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
