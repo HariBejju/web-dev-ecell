@@ -18,69 +18,60 @@
 
 <body>
   <!-- navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 ">
-    <div class="container-fluid d-flex flex-row flex-wrap">
-      <a class="navbar-brand col" href="#">
-        <img class="navbar-brand-img" src="./assets/images/logo.svg" alt="" />
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white py-2">
+    <div class="container-md">
+      <a class="navbar-brand d-flex px-2" href="#">
+        <img src="./assets/images/logo.svg" height="20px" />
       </a>
 
-      <div class="d-flex flex-row-reverse col">
-        <div id="menu-bar" onclick='document.getElementById("menu-bar").classList.toggle("change");'
-          class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <div id="bar1" class="bar"></div>
-          <div id="bar2" class="bar"></div>
-          <div id="bar3" class="bar"></div>
-
-        </div>
-        <a href="#" class="btn btn-primary d-block d-lg-none col flex flex-wrap ">Get Started</a>
+      <div class="d-flex flex-row-reverse">
+        <button class="navbar-toggler border-0 shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon text-dark"></span>
+        </button>
+        <a class="btn btn-primary d-block d-lg-none fw-bold mx-3 py-2" href="#">Get started</a>
       </div>
 
+      <div class="collapse navbar-collapse mt-3 mt-lg-0" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark p-3" href="#">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-3" href="#">Web3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-3" href="#">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-3" href="#">Individuals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-3" href="#">Businesses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-3" href="#">Developers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark p-3" href="#">Company</a>
+          </li>
+          <li>
+            <a class="btn btn-primary fw-bold d-lg-none m-3 py-3" style="min-width:295px" href="#">Get started</a>
+          </li>
+          <li>
+            <a class="btn btn-outline-primary d-lg-none py-3 mx-3 border-2 fw-bold" style="min-width:295px" href="#">Sign in</a>
+          </li>
+        </ul>
 
+        <a class="text-dark d-none d-lg-block p-3" href="#">Sign in</a>
+        <a class="btn btn-primary d-none d-lg-block lh-1 fw-bold me-3" href="#">Get started</a>
+      </div>
     </div>
-
-
-    <div class="collapse navbar-collapse " id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Explore</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Web3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Learn</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Individuals</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Businesses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Developers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Company</a>
-        </li>
-      </ul>
-      <a class="nav-link d-none d-lg-block" href="#">Sign in</a>
-      <a class="btn btn-primary uncollapsed d-block d-lg-none">Get started</a>
-      <!-- <a class="btn btn-primary uncollapsed uc-singin d-block d-lg-none" href="#">Sign in</a> -->
-      <a href="#" class="btn btn-primary d-none d-lg-block">Get started</a>
-    </div>
-
-    </div>
-
   </nav>
-
-  <!-- //navebar -->
-
   <!--hero-->
   <section id="hero-section mt-4  col-12">
     <div class="container d-grid pb-4 mb-lg-5 ">
-      <div class="col-md-6   ">
-        <a class="link-primary mb-lg-4 fw-bold " style="font-size: 20px;" href="#">
+      <div class="pt-5 col-md-6   ">
+        <a class=" link-primary mb-lg-4 fw-bold " style="font-size: 20px; " href="#">
           <img src="assets/images/dollar.svg">
 
           Jump start your portfolio
@@ -88,10 +79,10 @@
 
         </a>
 
-        <h1 style="font-size: 60px; font-weight:600; ">Jump Start <br>your crypto <br>
+        <h1 class="jumpstart" style=" font-weight:600; ">Jump Start your crypto 
           portfolio
         </h1>
-        <h6 style="font-size: 20px;">Coinbase is the easiest place to buy and sell <br>cryptocurrency. Sign up and get
+        <h6 class ="coinbase " >Coinbase is the easiest place to buy and sell <br>cryptocurrency. Sign up and get
           started today.
         </h6>
 
@@ -105,7 +96,7 @@
             <input type="email" class="form-control form-control-lg pb-4" id="inputPassword2" placeholder="Enter email">
           </div>
           <div class="col-auto">
-            <button type="submit" class="btn btn-primary " style="height: 62px; width: 120%;"><span
+            <button type="submit" class="btn btn-primary " style="height: 62px; width: 200%;"><span
                 style="font-size: 20px;"> Get
                 Started</span> </button>
           </div>
@@ -147,7 +138,7 @@
 
         <div class="col-md-6  ">
           <div class="card text-center  " style=" border: none;">
-            <img class=" card-img-top mx-auto d-block " src="./assets/images/coinbaselogo.svg" style="width: unset; "
+            <img class="coinbaseimage card-img-top mx-auto d-block " src="./assets/images/coinbaselogo.svg" style="width: unset; "
               alt="Card image">
             <div class=" card-body">
               <h4 class="card-title">Industry best practices
